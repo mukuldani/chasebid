@@ -1,0 +1,474 @@
+body {
+    font-family: 'Open sans';
+    font-size: 1em;
+}
+
+/*Nav Bar*/
+
+#top_nav_div {
+    background-color: rgba(77, 78, 77, 0.88);
+    height: 74px;
+    top: 0;
+    border-bottom-width: 0;
+    border-top-width: 0;
+}
+
+.navbar {
+    padding: 0;
+}
+
+.nav_menu_section {
+    background: #000;
+    height: 52px;
+    border-bottom-width: 0;
+    border-top-width: 0px;
+}
+
+.nav.justify-content-center > li > a.nav-link {
+    padding: 1.5rem 1.5rem;
+    color: #fff;
+}
+
+
+
+/*Custom Styles*/
+
+.bg-grey {
+    background: #efefef;
+}
+
+.width-100 {
+    width: 100%;
+}
+
+.width-90 {
+    width: 90%;
+}
+
+
+.margin-top-5 {
+    margin-top: 5px;
+}
+
+.margin-top-10 {
+    margin-top: 10px;
+}
+
+.margin-top-15 {
+    margin-top: 15px;
+}
+
+.margin-top-20 {
+    margin-top: 20px;
+}
+
+.margin-top-25 {
+    margin-top: 25px;
+}
+
+.margin-top-30 {
+    margin-top: 30px;
+}
+
+.margin-top-35 {
+    margin-top: 35px;
+}
+
+.margin-right-5 {
+    margin-right: 5px;
+}
+
+.margin-right-10 {
+    margin-right: 10px;
+}
+
+.margin-right-15 {
+    margin-right: 15px;
+}
+
+.margin-right-20 {
+    margin-right: 20px;
+}
+
+.margin-right-25 {
+    margin-right: 25px;
+}
+
+.margin-left-5 {
+    margin-left: 5px;
+}
+
+.margin-left-10 {
+    margin-left: 10px;
+}
+
+.margin-left-15 {
+    margin-left: 15px;
+}
+
+.margin-left-20 {
+    margin-left: 20px;
+}
+
+.margin-left-25 {
+    margin-left: 25px;
+}
+
+.padding-5 {
+    padding: 5px;
+}
+
+.padding-10 {
+    padding: 10px;
+}
+
+.padding-15 {
+    padding: 15px;
+}
+
+.padding-20 {
+    padding: 20px;
+}
+
+.padding-25 {
+    padding: 25px;
+}
+
+
+.padding-top-5 {
+    padding-top: 5px;
+}
+
+.padding-top-10 {
+    padding-top: 10px;
+}
+
+.padding-top-15 {
+    padding-top: 15px;
+}
+
+.padding-top-20 {
+    padding-top: 20px;
+}
+
+.font-size-2 {
+    font-size: 2em;
+}
+
+.font-size-small {
+    font-size: 1.2em
+}
+
+.font-size-3 {
+    font-size: 3em;
+}
+
+.font-size-4 {
+    font-size: 4em;
+}
+
+.font-size-5 {
+    font-size: 5em;
+}
+
+.font-size-6 {
+    font-size: 6em;
+}
+
+.font-size-7 {
+    font-size: 7em;
+}
+
+.text-bold {
+    font-weight: bold;
+}
+
+.border_right_1 {
+    border-right: 1px solid #8d8d8d;
+}
+
+.border_left_1 {
+    border-left: 1px solid #8d8d8d;
+}
+
+/*Home Section*/
+
+.home_section {
+    background-color: #080869;
+}
+
+.home_section .heading_home {
+    font-weight: bolder;
+    letter-spacing: 5px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.home_section .outer_rectangle {
+    background-color: #fff;
+}
+
+.home_section .outer_rectangle .text_below_phones {
+    font-size: 0.8em;
+    text-align: center;
+    font-weight: 600;
+}
+
+
+.text-advertisement {
+    color: #fff;
+    font-weight: bolder;
+    text-align: justify;
+}
+
+.text-advertisement-second-part {
+    width: 36%;
+    font-size: 2em;
+    font-weight: 900;
+    margin-left: 38%;
+    margin-top: -22%;
+    text-align: center;
+    background-color: white;
+    color: #000;
+    text-transform: uppercase;
+    -ms-transform: rotate(-10deg);
+    -webkit-transform: rotate(-10deg);
+    transform: rotate(-10deg);
+}
+
+
+/*Live Auction Section*/
+
+.live_auction_heading {
+    color: #000;
+    font-size: 1.8em;
+    font-weight: 600;
+}
+
+.live_auction_view_more_link > a {
+    color: rgba(255, 4, 4, 0.97);
+    font-size: 1em;
+    font-weight: 700;
+    margin-left: 20px;
+    ;
+}
+
+.card {
+    border: 4px solid #efefef;
+    border-radius: 15px;
+    margin: 0 10px 10px 0;
+    -webkit-transition: all 250ms;
+    -moz-transition: all 250ms;
+    transition: all 250ms;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.card:hover {
+    -webkit-transform: translateY(-5px);
+    -moz-transform: translateY(-5px);
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+.card:focus,
+.card:active {
+    border: 2px solid rgba(255, 4, 4, 0.97);
+}
+
+
+.card-img-top {
+    height: 270px;
+    width: 120px;
+}
+
+.card-title {
+    font-size: 1.2em;
+    text-align: center;
+    font-weight: 600;
+}
+
+.btn-buyNow {
+    background: rgba(105, 95, 96, 0.89);
+    color: #fff;
+    font-size: 1.2em;
+    width: 100%;
+    text-align: center;
+    padding: 7px;
+    font-weight: 700;
+    border-radius: 2em;
+}
+
+.btn-buyNow:active,
+.btn-buyNow:focus {
+    background: rgba(255, 4, 4, 0.97);
+}
+
+.batch_winning {
+    width: 50px;
+    position: absolute;
+}
+
+.buy_now {
+    background: url(../images/buy_now_image.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    top: -28px;
+    left: -28px;
+
+}
+
+.card-text {
+    color: #656363;
+    font-weight: 700;
+}
+
+.bidder_name {
+    background-color: #efefef;
+    padding: 5px;
+    margin-top: -10px;
+    font-size: 0.9em;
+}
+
+.clock-img {
+    background-image: url(../images/live_auction_section/Clock_In_red.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 30px;
+    width: 30px;
+}
+
+.bid_timer {
+    font-size: 1em;
+    font-weight: 700;
+}
+
+.text-ends-in {
+    margin: 1px;
+}
+
+.purchase-bid {
+    display: table-cell;
+    height: 120px;
+    width: 120px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 50%;
+    background: #e31e25;
+    color: #fff;
+    font-size: 1.2em;
+    font-weight: 700;
+}
+
+.circle_purchase {
+    margin-left: 83px;
+    margin-top: -47px;
+}
+
+
+/*Upcoming Auctions*/
+
+.live_auction_heading {
+    color: #000;
+    font-size: 1.8em;
+    font-weight: 600;
+}
+
+.live_auction_view_more_link > a {
+    color: rgba(255, 4, 4, 0.97);
+    font-size: 1em;
+    font-weight: 700;
+    margin-left: 20px;
+    ;
+}
+
+.card-sub-tilte {
+    font-size: 0.8em;
+    font-weight: 600;
+    color: #8d8d8d;
+    text-align: center;
+}
+
+.carousel-control-prev-icon {
+    background-image: url(../images/Left_arrow.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 60px;
+    height: 60px;
+}
+
+.carousel-control-next-icon {
+    background-image: url(../images/Right_arrow.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 60px;
+    height: 60px;
+}
+
+.img-carousel {
+    height: 130px;
+    width: 65px;
+}
+
+.winning_bid,
+.total_saving {
+    font-size: 1em;
+    font-weight: 600;
+    color: #8d8d8d;
+    text-align: center;
+}
+
+.winning_bid_amt,
+.total_saving_amt {
+    font-size: 1.3em;
+    font-weight: bolder;
+    color: red;
+    text-align: center;
+}
+
+/*Footer*/
+
+.wrapper {
+    background: rgba(0, 0, 0, 0.85);
+    padding: 45px;
+}
+
+.chasebid_heading {
+    font-size: 2.5em;
+    color: #fff;
+}
+
+.chasebid_sub_heading {
+    color: #fff;
+    font-size: 1em;
+}
+
+.footer_links {
+    text-align: justify;
+    list-style: none;
+}
+
+.footer_links > li > a,
+.follow_us_text {
+    text-decoration: none;
+    color: #fff;
+    font-size: 0.9em;
+}
+
+.social_media > li > a {
+    font-size: 1.5em;
+    color: #fff;
+}
+
+.sub_footer {
+    background: #000;
+}
+
+.sub_footer_text {
+    font-size: 0.8em;
+    color: #fff;
+}

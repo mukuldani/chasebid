@@ -5,11 +5,11 @@
     <title>CHASE BID</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-<!--    <link rel="stylesheet" href="vendor/bootstrap-4.0.0-dist/css/bootstrap.min.css">-->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"/>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" ></script>
+    <!--    <link rel="stylesheet" href="vendor/bootstrap-4.0.0-dist/css/bootstrap.min.css">-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" />
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-<!--    <script type="text/javascript" src="vendor/bootstrap-4.0.0-dist/js/bootstrap.min.js"></script>-->
+    <!--    <script type="text/javascript" src="vendor/bootstrap-4.0.0-dist/js/bootstrap.min.js"></script>-->
     <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans:400,300" />
     <link rel="shortcut icon" href="assets/images/favicon.png" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
@@ -19,53 +19,66 @@
 
 <body>
 
-    <!--Navbar-->
-    <nav class="navbar navbar-default ">
-        <div id="top_nav_div" class="container-fluid">
-            <div class="row width-90 text-center">
-                <div class="col-md-12">
-                    <a href="index.html"><img class="img-fluid" src="assets/images/chasebid_logo.png"/></a>
-                </div>
+    <!--Top Navbar :Start-->
+    <nav class="navbar navbar-expand-lg navbar-light" id="top_nav_div">
+
+        <a class="navbar-brand" href="index.html"><img class="img-fluid header_logo padding-10" src="assets/images/chasebid_logo.png"/></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#top_navbar" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="top_navbar">
+            <div class="container-fluid">
+                <ul class="nav justify-content-end">
+                    <li class="nav-item">
+                        <a class="nav-link"><img class="img-fluid" src="assets/images/Signin_Icon_Small_40.png"/></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link"><img class="img-fluid" src="assets/images/Signup_Icon_Small_40.png"/></a>
+                    </li>
+                </ul>
             </div>
-            <ul class="nav justify-content-end">
-                <li class="nav-item">
-                    <a class="nav-link"><img class="img-fluid" src="assets/images/Signin_Icon_Small_40.png"/></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link"><img class="img-fluid" src="assets/images/Signup_Icon_Small_40.png"/></a>
-                </li>
-            </ul>
         </div>
-        <div class="container-fluid nav_menu_section">
-            <div class="row width-100 text-center" id="navigation-fields">
-                <div class="col-md-12">
-                    <ul class="nav justify-content-center">
-                        <li>
-                            <a class="nav-link" id="hme" href="#" class=""><span class="margin-right-5">Categories</span><i class="fas fa-bars"></i></a>
-                        </li>
-                        <li class="mg-lt-links">
-                            <a class="nav-link" href="index.html" class="">Home</a>
-                        </li>
-                        <li class="mg-lt-links">
-                            <a class="nav-link" href="#live_auction" class="">Live Auction</a>
-                        </li>
-                        <li class="mg-lt-links">
-                            <a class="nav-link" href="" class="">Make Your Wish</a>
-                        </li>
-                        <li class="mg-lt-links">
-                            <a class="nav-link" href="" class="">How it Works</a>
-                        </li>
-                        <li class="mg-lt-links">
-                            <a class="nav-link" href="" class="">Purchase Bid Credits</a>
-                        </li>
-                        <li class="mg-lt-links">
-                            <a class="nav-link" href="" class="">Contact Us</a>
-                        </li>
-                    </ul>
+    </nav>
+    <!--Top Navbar :End-->
+    <!--Navbar Below: Start-->
+    <nav class="navbar navbar-expand-lg navbar-light menu_nav">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-10 offset-md-2">
+                        <ul class="navbar-nav mr-auto nav_below_menu_list">
+                            <li class="nav-item">
+                                <a class="" id="home" href="#" class=""><span class="margin-right-5">Categories</span><i class="fas fa-bars"></i></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="" href="index.html" class="">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="" href="#live_auction" class="">Live Auction</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="" href="" class="">Make Your Wish</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="" href="" class="">How it Works</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="" href="" class="">Purchase Bid Credits</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="" href="" class="">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
     </nav>
+    <!--Navbar Below : End-->
 
     <!--Home Section: Start-->
     <section>
@@ -121,9 +134,10 @@
         </div>
     </section>
     <!--Home Section: End-->
+
     <!--Live Auction Section: Start-->
-    <a id="live_auction" style="position:relative;top:-115px;display:block;visibility:hidden;"></a>
-    <section id="">
+    <!--    <a id="live_auction" style="position:relative;top:-115px;display:block;visibility:hidden;"></a>-->
+    <section id="live_auction">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-10">
@@ -245,7 +259,7 @@
                                 </div>
                             </div>
                             <br>
-                             <div class="row">
+                            <div class="row">
                                 <div class="col-md-10 offset-md-1">
                                     <div class="row">
                                         <div class="card" style="width: 18rem;">
@@ -370,9 +384,10 @@
         </div>
     </section>
     <!--Live Auction Section: End-->
+
     <!--Upcoming Auction Section: Start-->
-    <a id="upcoming_auctions" style="position:relative;top:-115px;display:block;visibility:hidden;"></a>
-    <section id="">
+    <!--    <a id="" style="position:relative;top:-115px;display:block;visibility:hidden;"></a>-->
+    <section id="upcoming_auctions">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-12">
@@ -382,7 +397,7 @@
             <br><br>
             <div class="row">
                 <div class="col-md-12">
-                    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                    <div id="carouselControls" class="carousel slide" data-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
                                 <div class="row">
@@ -530,11 +545,11 @@
                                 </div>
                             </div>
                         </div>
-                        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                        <a class="carousel-control-prev" href="#carouselControls" role="button" data-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     <span class="sr-only">Previous</span>
   </a>
-                        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                        <a class="carousel-control-next" href="#carouselControls" role="button" data-slide="next">
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="sr-only">Next</span>
   </a>
@@ -546,8 +561,8 @@
     <!--Upcoming Auction Section: End-->
 
     <!--Recently Closed Auction Section: Start-->
-    <a id="recently_closed_auctions" style="position:relative;top:-115px;display:block;visibility:hidden;"></a>
-    <section id="">
+    <!--    <a id="" style="position:relative;top:-115px;display:block;visibility:hidden;"></a>-->
+    <section id="recently_closed_auctions">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-12">
